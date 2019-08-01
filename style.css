@@ -1,0 +1,208 @@
+.row {
+    border: 2px solid white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color:  white;
+}
+
+.row > div {
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+
+.row > div:not(:first-child) {
+    border-left: 0;
+}
+
+.row1 {
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4aaaa5;
+    background-image: url("white-waves.jpg");
+}
+
+.row1 > div {
+    background-color:  white;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.row1 > div:not(:first-child) {
+    border-left: 0;
+}
+.row2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.row2 > div {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.row2 > div:not(:first-child) {
+    border-left: 0;
+}
+
+.row3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.row3 > div {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.row3 > div:not(:first-child) {
+    border-left: 0;
+}
+
+.container-fluid:: after {
+    content: '';
+    display: table;
+    clear: both;
+
+}
+#navigation-bar {
+    width: 100%;
+    margin-left: 0px;
+    color: white;
+    background: rgb(255, 255, 255);
+    list-style: none;
+
+}
+
+h1 {
+    padding: 23px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    background-color:  #4aaaa5;
+}
+
+.nav-item {
+    color:#4aaaa5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #4aaaa5;
+}
+#bio-image {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    width: 150px;
+    height: 190px;
+    float: left;
+    
+}
+
+#profile-image1 {
+    color: #4aaaa5;
+    border: 4px solid #4aaaa5;
+    margin: 10px;
+    width: 221px;
+    height: 234px;
+}
+
+#profile-image2 {
+    color: #4aaaa5;
+    border: 4px solid #4aaaa5;
+    margin: 10px;
+    width: 221px;
+    height: 234px;
+
+}
+
+#profile-image3 {
+    margin: 10px;
+    width: 250px;
+    height: 234px;
+  
+}
+
+#profile-image4 {
+    margin: 10px;
+    width: 420px;
+    height: 260px;
+  
+}
+
+#profile-image5 {
+    margin: 10px;
+    width: 430px;
+    height: 260px;
+  
+}
+
+p {
+    position: relative;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: black;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 20px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: left;
+    border-bottom: 2px solid #4aaaa5;
+}
+
+footer {
+    background: #4aaaa5;
+    font: white;
+    }
+h3 {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+}
+
+h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5 {
+    color:#4aaaa5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+}
