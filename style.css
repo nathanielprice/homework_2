@@ -1,13 +1,16 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 .row {
-    border: 2px solid white;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    background-color:  white;
+    background-image: url("images/white-waves.jpg");
 }
 
 .row > div {
-    border: 2px solid white;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0px;
 
 }
@@ -16,22 +19,14 @@
     border-left: 0;
 }
 
-.row1 {
-    border: 2px solid white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #4aaaa5;
-    background-image: url("white-waves.jpg");
+.navbar {
+    margin-top: 12px;
 }
-
-.row1 > div {
-    background-color:  white;
-    margin-top: 25px;
-    margin-bottom: 5px;
+.offset-md-2 {
+    background-color: ;
 }
-
-.row1 > div:not(:first-child) {
-    border-left: 0;
+.col-md-5 {
+    background-color: ;
 }
 .row2 {
     margin-top: 0px;
@@ -60,7 +55,9 @@
 .row3 > div:not(:first-child) {
     border-left: 0;
 }
-
+.container-fluid {
+    margin: 0px;
+}
 .container-fluid:: after {
     content: '';
     display: table;
@@ -77,6 +74,8 @@
 }
 
 h1 {
+    margin: 10px;
+    border: 10px #4aaaa5;
     padding: 23px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -116,7 +115,7 @@ h1 {
 #profile-image1 {
     color: #4aaaa5;
     border: 4px solid #4aaaa5;
-    margin: 10px;
+    margin: 0px;
     width: 221px;
     height: 234px;
 }
@@ -124,7 +123,7 @@ h1 {
 #profile-image2 {
     color: #4aaaa5;
     border: 4px solid #4aaaa5;
-    margin: 10px;
+    margin: 0px;
     width: 221px;
     height: 234px;
 
@@ -181,7 +180,6 @@ footer {
     font: white;
     }
 h3 {
-    margin: 30px;
     padding: 20px;
     text-align: center;
     color: white;
@@ -205,4 +203,30 @@ h5 {
     position: relative;
     padding-right: 0px;
     padding-left: 0px;
+}
+
+form {
+    border: 2px black;
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+}
+
+input {
+    padding: 2px;
+    margin: 10px;
+    width: 100%;
+}
+form {
+    padding: 2px;
+    margin: 10px;
+    width: 100%
+}
+
+textarea {
+    padding: 2px;
+    margin: 10px;
+    resize: both;
+    max-height: 100%;
+    max-width: 100%;
 }
