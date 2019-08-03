@@ -137,6 +137,8 @@ h1 {
 }
 
 #profile-image4 {
+    color: #4aaaa5;
+    border: 4px solid #4aaaa5;
     margin: 10px;
     width: 420px;
     height: 260px;
@@ -144,6 +146,8 @@ h1 {
 }
 
 #profile-image5 {
+    color: #4aaaa5;
+    border: 4px solid #4aaaa5;
     margin: 10px;
     width: 430px;
     height: 260px;
